@@ -23,7 +23,9 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse-nuxt3) from [Anthony Fu](
 ### Nuxt Modules
 
 - [VueUse](https://github.com/vueuse/vueuse) - A collection of useful Composition APIs
+
 - [ColorMode](https://github.com/nuxt-community/color-mode-module) - Color mode detection made easy with Nuxt 3
+
 - [UnoCSS](https://github.com/antfu/unocss) - On-demand Atomic CSS engine
 
 ## IDE
