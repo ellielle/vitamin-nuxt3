@@ -4,31 +4,27 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse-nuxt3) from [Anthony Fu](
 
 ## Features
 
-- [💚 Nuxt 3](https://nuxt.com/) - SSR, ESR, File-based routing, auto importing components
+- [💚 Nuxt 3](https://nuxt.com/) - SSR, ESR, File-based routing, auto-importing components
 
 - ⚡️ Vite - Instant HMR
 
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - On-demand Atomic CSS engine
 
-- 😃 Carbon icons in Pure CSS, powered by [UnoCSS](https://github.com/antfu/unocss)
-
-- 🔥 The `<script setup>` syntax
+- 🔆 Carbon icons in Pure CSS, powered by [UnoCSS](https://github.com/antfu/unocss)
 
 - 📑 [Layouts](https://nuxt.com/docs/guide/directory-structure/layouts)
 
-- 📥 Auto-importing - for Composition API, VueUse and custom composables.
+- 🪄 Auto-importing for Composition API, VueUse and custom composables.
 
-<!-- - 🏎 Zero-config cloud functions and deploy -->
-
-- 🦾 TypeScript
+- 🔐 TypeScript
 
 ## Plugins
 
 ### Nuxt Modules
 
-- [VueUse](https://github.com/vueuse/vueuse) - collection of useful composition APIs.
-- [ColorMode](https://github.com/nuxt-community/color-mode-module) - dark and Light mode with auto detection made easy with Nuxt.
-- [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine.
+- [VueUse](https://github.com/vueuse/vueuse) - A collection of useful Composition APIs
+- [ColorMode](https://github.com/nuxt-community/color-mode-module) - Color mode detection made easy with Nuxt 3
+- [UnoCSS](https://github.com/antfu/unocss) - On-demand Atomic CSS engine
 
 ## IDE
 
