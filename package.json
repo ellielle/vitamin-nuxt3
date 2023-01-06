@@ -4,6 +4,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "test": "nuxt test",
+    "test2": "vitest --reporter verbose --globals",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -14,11 +15,7 @@
     "@nuxt/test-utils": "^3.0.0",
     "@unocss/nuxt": "^0.48.0",
     "@vueuse/nuxt": "^9.10.0",
-    "jsdom": "^20.0.3",
     "nuxt": "3.0.0",
-    "unplugin-auto-import": "^0.12.1",
-    "unplugin-vue-components": "^0.22.12",
-    "vite-plugin-vue-type-imports": "^0.2.4",
     "vitest": "^0.26.3"
   }
 }
