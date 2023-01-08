@@ -4,7 +4,5 @@ export default defineNuxtConfig({
   experimental: {
     reactivityTransform: true,
   },
-  css: [
-    "@unocss/reset/tailwind.css"
-  ]
+  css: ["@unocss/reset/tailwind.css"],
 });
