@@ -1,5 +1,5 @@
 export default defineEventHandler((event) => {
   return {
-    intro: "Welcome to Nuxt 3",
+    intro: "Nuxt 3 is pretty neat.",
   };
 });
