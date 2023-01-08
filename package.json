@@ -12,7 +12,7 @@
     "@iconify-json/carbon": "^1.1.13",
     "@iconify-json/logos": "^1.1.21",
     "@nuxt/test-utils": "^3.0.0",
-    "@unocss/nuxt": "^0.48.0",
+    "@unocss/nuxt": "0.48.2",
     "@vueuse/nuxt": "^9.10.0",
     "nuxt": "3.0.0",
     "vitest": "^0.26.3"
