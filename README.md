@@ -1,4 +1,8 @@
-# Vitamin - Nuxt 3 - WIP
+# Vitamin - Nuxt 3
+
+<pre>
+WIP - Template should be good to go. Demo is lacking a bit.
+</pre>
 
 Inspired by [Vitesse](https://github.com/antfu/vitesse-nuxt3) from [Anthony Fu](https://github.com/antfu).
 
@@ -24,23 +28,29 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse-nuxt3) from [Anthony Fu](
 
 - [VueUse](https://github.com/vueuse/vueuse) - A collection of useful Composition APIs
 
-- [ColorMode](https://github.com/nuxt-community/color-mode-module) - Color mode detection made easy with Nuxt 3
-
 - [UnoCSS](https://github.com/antfu/unocss) - On-demand Atomic CSS engine
 
 ## IDE
 
-[VS Code](https://code.visualstudio.com/) with [Volar](https://github.com/johnsoncodehk/volar)
+[VS Code](https://code.visualstudio.com/) with [Volar](https://github.com/johnsoncodehk/volar).
 
-### Online
+If using [Webstorm](https://www.jetbrains.com/webstorm) on WSL, you will most likely need to use `npm` or `yarn` instead of `pnpm`.
+
+## Give it a try!
+
+### Online Demo
+
+<a href="https://stackblitz.com/github/ellielle/vitamin-nuxt3">
+<img alt="Open in StackBlitz" src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" />
+</a>
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/ellielle/vitamin-nuxt3).
+[Create a repo from this template](https://github.com/ellielle/vitamin-nuxt3/generate).
 
 ### Clone to local
 
-If you prefer to do it manually with the cleaner git history
+If you prefer to clone with a clean git history:
 
 ```bash
 npx degit ellielle/vitamin-nuxt3 my-nuxt3-app
