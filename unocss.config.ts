@@ -1,6 +1,6 @@
 import { defineConfig, presetIcons, presetUno, presetAttributify } from "unocss";
 
 export default defineConfig({
-  // shortcuts: [],
+  // see https://github.com/unocss/unocss for config options
   presets: [presetUno(), presetIcons(), presetAttributify()],
 });
