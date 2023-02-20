@@ -12,4 +12,6 @@ export default defineNuxtConfig({
       meta: [{ name: "description", content: "Nuxt 3 is pretty neat." }],
     },
   },
+  // Simple css reset
+  css: ["@/assets/css/globals.css"],
 });
