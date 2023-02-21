@@ -10,11 +10,13 @@
 
 - 🔆 Carbon icons in Pure CSS, powered by [UnoCSS](https://github.com/antfu/unocss)
 
-- 📑 [Layouts](https://nuxt.com/docs/guide/directory-structure/layouts)
+- 📑 [Layouts](https://nuxt.com/docs/guide/directory-structure/layouts) - See configuration page for usage / removal.
 
 - 🪄 Auto-importing for Composition API, VueUse and custom composables / utils.
 
 - 🔐 TypeScript
+
+<br>
 
 ## Plugins
 
@@ -24,9 +26,22 @@
 
 - [UnoCSS](https://github.com/antfu/unocss) - On-demand Atomic CSS engine. Default preset is PresetUno
 
+<br>
+
+## Configuration changes to make
+
+* Edit head in `nuxt.config.ts`
+* Make any desired changes to `unocss.config.ts`
+* Edit / Remove `netlify.toml`
+* Remove `/server/api/intro.get.ts` and `intro.test.ts`
+
+<br>
+
 ## IDE
 
 [VS Code](https://code.visualstudio.com/) with [Volar](https://github.com/johnsoncodehk/volar).
+
+<br>
 
 ## Give it a try!
 
