@@ -17,7 +17,11 @@ html {
 
 html,
 body {
+<<<<<<< HEAD
   font-family: Noto Sans, -apple-system, Droid Sans, Helvetica, sans-serif;
+=======
+  font-family: Noto Sans, Fira Sans, -apple-system, Droid Sans, Helvetica, sans-serif;
+>>>>>>> d47002e8a3d64acce70e3488ae1d5bbf6d52a83c
   letter-spacing: 0.03rem;
   font-weight: 300;
 }
@@ -36,3 +40,10 @@ ol,
 li {
   list-style: none;
 }
+<<<<<<< HEAD
+=======
+
+#__nuxt {
+  min-height: 100vh;
+}
+>>>>>>> d47002e8a3d64acce70e3488ae1d5bbf6d52a83c
