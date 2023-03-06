@@ -17,7 +17,7 @@ html {
 
 html,
 body {
-  font-family: Noto Sans, Fira Sans, -apple-system, Droid Sans, Helvetica, sans-serif;
+  font-family: Noto Sans, -apple-system, Droid Sans, Helvetica, sans-serif;
   letter-spacing: 0.03rem;
   font-weight: 300;
 }

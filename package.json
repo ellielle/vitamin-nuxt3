@@ -9,12 +9,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.1.15",
-    "@iconify-json/logos": "^1.1.23",
-    "@nuxt/test-utils": "~3.2.1",
-    "@unocss/nuxt": "^0.49.7",
-    "@vueuse/nuxt": "^9.12.0",
-    "nuxt": "~3.2.1",
-    "vitest": "^0.28.5"
+    "@iconify-json/carbon": "1.1.16",
+    "@iconify-json/logos": "1.1.23",
+    "@nuxt/test-utils": "3.2.3",
+    "@nuxtjs/google-fonts": "3.0.0-1",
+    "@unocss/nuxt": "0.50.4",
+    "@vueuse/nuxt": "9.13.0",
+    "nuxt": "3.2.3",
+    "vitest": "0.29.2"
   }
 }
