@@ -10,7 +10,7 @@
 
 - 🔆 Carbon icons in Pure CSS, powered by [UnoCSS](https://github.com/antfu/unocss)
 
-- 📑 [Layouts](https://nuxt.com/docs/guide/directory-structure/layouts) - See configuration page for usage / removal.
+- 📑 [Layouts](https://nuxt.com/docs/guide/directory-structure/layouts) - See configuration page for usage / addition. 
 
 - 🪄 Auto-importing for Composition API, VueUse and custom composables / utils.
 
