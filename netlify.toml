@@ -1,11 +1,19 @@
 [build.environment]
-  NODE_VERSION = "16"
+  NODE_VERSION = "18"
 
 [build]
-  publish = "dist"
+  publish = "output"
   command = "pnpm run build"
+
+[functions]
+  directory = "functions/"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+[dev]
+  command = "pnpm dev"
+  port = "8888"
+  publish = "nuxt"

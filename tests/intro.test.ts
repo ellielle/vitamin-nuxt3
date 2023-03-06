@@ -9,9 +9,9 @@ describe("index.vue", async () => {
     dev: false,
   });
 
-  it("renders then NuxtWelcome component", async () => {
-    const body = await $fetch("/");
-    expect(body).toContain("Welcome to Nuxt!");
+  it("renders the NuxtWelcome component", async () => {
+    const body = await $fetch("/");    
+    expect(body).toContain("This is a button");
   });
 
   it("it gets the intro from the api", async () => {
@@ -20,7 +20,7 @@ describe("index.vue", async () => {
   });
 
   if (isDev()) {
-    it("[dev] ensure vite client script is added", async () => {
+    it("[dev] ensures vite client script is added", async () => {
       expect(await $fetch("/")).toMatch('/_nuxt/@vite/client"');
     });
   }
