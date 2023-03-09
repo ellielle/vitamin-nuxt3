@@ -2,7 +2,7 @@
   NODE_VERSION = "18"
 
 [build]
-  publish = "output"
+  publish = ".output"
   command = "pnpm run build"
 
 [functions]
