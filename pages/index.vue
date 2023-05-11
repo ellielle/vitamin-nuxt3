@@ -7,14 +7,15 @@
 </script>
 
 <template>
-  <main>
+  <main class="flex justify-center min-h-[100vh]">
     <!-- Don't forget to edit head data in nuxt.config.ts -->
-    <div class="grid-container">
-      <div class="flex-item">
+    <div class="flex flex-col justify-center justify-items-center">
+      <div class="flex justify-center">
         <div class="i-logos-vue text-8xl"></div>
         <div class="i-logos-nuxt text-8xl"></div>
       </div>
-      <div class="about-btn mt-10">
+      <HelloWorld msg="You did it!" />
+      <div class="flex justify-center mt-8">
         <NuxtLink to="/about">
           <button @click="clickHandler">CSS is reset. This is a button.</button>
         </NuxtLink>
@@ -24,19 +25,6 @@
 </template>
 
 <style scoped>
-  .grid-container {
-    display: grid;
-    justify-items: center;
-    min-height: 100vh;
-    grid-template-rows: 1fr 1fr;
-  }
-
-  .flex-item {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-  }
-
   .fade-enter-active,
   .fade-leave-active {
     transition: all 0.4s;
