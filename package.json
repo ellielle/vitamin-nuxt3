@@ -1,21 +1,30 @@
 {
+  "name": "nuxt-app",
   "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "test": "vitest --reporter verbose --globals",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "1.1.16",
-    "@iconify-json/logos": "1.1.23",
-    "@nuxt/test-utils": "3.2.3",
-    "@nuxtjs/google-fonts": "3.0.0-1",
-    "@unocss/nuxt": "0.50.4",
-    "@vueuse/nuxt": "9.13.0",
-    "nuxt": "3.2.3",
-    "vitest": "0.29.2"
+    "@iconify-json/carbon": "^1.1.16",
+    "@iconify-json/logos": "^1.1.28",
+    "@types/node": "^18",
+    "@unocss/nuxt": "^0.51.12",
+    "@vueuse/core": "^10.1.2",
+    "@vueuse/nuxt": "^10.1.2",
+    "nuxt": "^3.4.3",
+    "nuxt-simple-sitemap": "^2.5.0"
+  },
+  "dependencies": {
+    "@nuxtjs/google-fonts": "^3.0.0",
+    "@nuxtjs/robots": "^3.0.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "consola": "3.0.1"
+    }
   }
 }
